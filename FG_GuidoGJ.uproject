@@ -16,11 +16,13 @@
 			"Enabled": false
 		},
 		{
-			"Name": "EnhancedInput",
-			"Enabled": false
+			"Name": "LidarPointCloud",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
 		}
-	],
-	"TargetPlatforms": [
-		"Windows"
 	]
 }
